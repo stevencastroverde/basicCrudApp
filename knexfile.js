@@ -4,9 +4,10 @@
 
   development: {
     client: 'postgresql',
-    connection: DEVELOPMENT_DATABASE_URL;
 
-  },
+    connection: process.env.DEVELOPMENT_DATABASE_URL
+
+  };
 
 
   production: {
