@@ -48,3 +48,14 @@ knex('movie')
 .then(() => knex('movie').orderBy('id','ASC'))
 .then((movies) => res.json(movies));
 })
+
+
+// app.put('/movie/:id', fucntion(req, res){
+//   knex('movie')
+//   .where()
+//
+//
+//
+//
+//
+// })

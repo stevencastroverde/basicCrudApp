@@ -1,10 +1,10 @@
 // Update with your config settings.
-require('dotenv').config();
-module.exports = {
+ const dotenv =require('dotenv')
+ dotenv.config();
 
   development: {
     client: 'postgresql',
-    connection: 'postgresql://localhost/basiccrudmovies'
+    connection: DEVELOPMENT_DATABASE_URL;
 
   },
 
